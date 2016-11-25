@@ -27,7 +27,7 @@ body {
 }
 /* Large Devices */
 @media screen and (min-width: 1025px) {
-  .row {
+	.row {
 	  margin-left: auto;
 	  margin-right: auto;
 	  max-width: 1025px;
@@ -135,7 +135,7 @@ body {
 	}
 }
 /* Medium Devices */
-@media screen and (max-width: 1025px) {
+@media screen and (min-device-width: 560px) and (max-width: 1025px) {
 	.grid-one {
 		min-width: 50%;
 		max-width: 50%;
