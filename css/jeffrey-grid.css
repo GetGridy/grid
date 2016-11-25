@@ -1,0 +1,187 @@
+/* Style Body */
+body {
+	margin: 0px;
+	padding:0px;
+}
+
+/* Style Row & Columns */
+.row {
+	overflow:hidden;
+}
+.columns {
+	float: left;
+}
+/* Small Devices */
+@media screen and (min-width: 20px) {
+	.row {
+		margin-left: 15px;
+	  margin-right: 15px;
+	}
+}
+/* Medium Devices */
+@media screen and (min-width: 560px) {
+  .row {
+	  margin-left: 5%;
+	  margin-right: 5%;
+	}
+}
+/* Large Devices */
+@media screen and (min-width: 1025px) {
+  .row {
+	  margin-left: auto;
+	  margin-right: auto;
+	  max-width: 1025px;
+	}
+}
+
+/* Style Grid */
+.grid-one {
+	max-width: 8.33%;
+	min-width: 8.33%;
+}
+.grid-two {
+	max-width: 16.66%;
+	min-width: 16.66%;
+}
+.grid-three {
+	max-width: 25%;
+	min-width: 25%;
+}
+.grid-four {
+	max-width: 33.33%;
+	min-width: 33.33%;
+}
+.grid-five {
+	max-width: 41.66%;
+	min-width: 41.66%;
+}
+.grid-six {
+	max-width: 50%;
+	min-width: 50%;
+}
+.grid-seven {
+	max-width: 58.33%;
+	min-width: 58.33%;
+}
+.grid-eight {
+	max-width: 66.66%;
+	min-width: 66.66%;
+}
+.grid-nine {
+	max-width: 75%;
+	min-width: 75%;
+}
+.grid-ten {
+	max-width: 83.33%;
+	min-width: 83.33%;
+}
+.grid-eleven {
+	max-width: 91.66%;
+	min-width: 91.66%
+}
+.grid-twelve {
+	max-width: 100%;
+	min-width: 100%;
+}
+/* Small devices */
+@media screen and (max-width: 560px) {
+	.grid-one {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-two {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-three {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-four {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-five {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-six {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-seven {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-eight {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-nine {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-ten {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-eleven {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.grid-twelve {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+/* Medium Devices */
+@media screen and (max-width: 1025px) {
+	.grid-one {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-two {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-three {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-four {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-five {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-six {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-seven {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-eight {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-nine {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-ten {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-eleven {
+		min-width: 50%;
+		max-width: 50%;
+	}
+	.grid-twelve {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
